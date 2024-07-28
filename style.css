@@ -1,0 +1,33 @@
+/* Basic Styling */
+body {
+  margin: 0; /* Mengatur margin body menjadi 0 */
+  padding: 0; /* Mengatur padding body menjadi 0 */
+  font-family: sans-serif; /* Mengatur font body menjadi sans-serif */
+}
+
+/* Chatbot Container */
+.chatbot-container {
+  display: flex; /* Mengatur display menjadi flex */
+  flex-direction: column; /* Mengatur arah flex menjadi kolom */
+  align-items: center; /* Menyelaraskan item flex ke tengah secara horizontal */
+  justify-content: center; /* Menyelaraskan item flex ke tengah secara vertikal */
+  width: 100%; /* Mengatur lebar container menjadi 100% lebar viewport */
+}
+
+/* Chatbot Window */
+.chatbot-window {
+  width: 400px; /* Mengatur lebar jendela chat menjadi 400px pada desktop */
+  max-width: 90%; /* Mengatur lebar maksimal jendela chat menjadi 90% lebar viewport */
+  border-radius: 10px; /* Mengatur radius border jendela chat menjadi 10px */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Mengatur box shadow pada jendela chat */
+}
+
+/* Media Queries for Responsiveness */  buat*/
+
+  @media (max-width: 480px) {
+    /* Aturan CSS untuk layar dengan lebar maksimal 480px */
+    .chatbot-window {
+      width: 90%; /* Mengatur lebar jendela chat menjadi 90% lebar viewport pada ponsel */
+    }
+  }
+}
